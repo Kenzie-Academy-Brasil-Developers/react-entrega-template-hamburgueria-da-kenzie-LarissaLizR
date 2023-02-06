@@ -7,9 +7,9 @@ import Inputsearch from "./components/Input/Input";
 import Cart from "./components/Cart/Cart";
 
 
-// import GlobalStyle from './components/styles/global';
+
 import HeaderStyled from "./components/styled components/Header/Index";
-import Body from './components/styled components/Body/BodySite';
+import BodySite from './components/styled components/Body/BodySite';
 
 
 
@@ -63,7 +63,7 @@ const [ setCartTotal] = useState(0)
       const total = currentSale.reduce((acu, valor) => (acu += valor.price), 0);
       setCartTotal(total);
     }
-    // <GlobalStyle> </GlobalStyle>
+
   
     return (
    
@@ -75,7 +75,7 @@ const [ setCartTotal] = useState(0)
           <Inputsearch  funcao={filtro} />
         </HeaderStyled>
 
-        <Body >
+        <BodySite >
           <div>
             <Productslist
               lista={filteredProducts.length > 0 ? filteredProducts : products}
@@ -90,7 +90,7 @@ const [ setCartTotal] = useState(0)
               currentSale={currentSale}
             />
           </div>
-        </Body>
+        </BodySite>
       </section>
      
 

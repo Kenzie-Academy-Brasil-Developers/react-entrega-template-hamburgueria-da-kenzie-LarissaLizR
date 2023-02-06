@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Body = styled.div`
+const BodySite = styled.div`
    
 
     @media (min-width: 769px) {
@@ -14,4 +14,4 @@ const Body = styled.div`
 
 `
 
-export default Body
+export default BodySite
