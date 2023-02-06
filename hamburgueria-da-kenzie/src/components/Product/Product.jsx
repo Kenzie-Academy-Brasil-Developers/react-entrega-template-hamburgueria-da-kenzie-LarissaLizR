@@ -1,6 +1,6 @@
-import  GreenButton  from "../styledComponents/Button/Index";
-import { DivImg } from "../styledComponents/Card/Index";
-import { CardProduct } from "../styledComponents/Card/Index";
+import  GreenButton  from "../styledComponents/button/Index";
+import { DivImg } from "../styledComponents/card/Index";
+import { CardProduct } from "../styledComponents/card/Index";
 
 function Product({ array, func }) {
   return (

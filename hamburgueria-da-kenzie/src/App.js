@@ -8,8 +8,8 @@ import Cart from "./components/cart/cart";
 
 
 
-import HeaderStyled from "./components/styledComponents/Header/Index";
-import BodySite from './components/styledComponents/Body/BodySite';
+import HeaderStyled from "./components/styledComponents/header/Index";
+import BodySite from './components/styledComponents/body/BodySite';
 
 
 

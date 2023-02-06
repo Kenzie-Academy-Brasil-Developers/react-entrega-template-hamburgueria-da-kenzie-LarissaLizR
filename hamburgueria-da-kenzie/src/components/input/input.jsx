@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-import InputHeader from "../styledComponents/InputHeader/Index"
-import GreenButton from "../styledComponents/Button/Index"
+import InputHeader from "../styledComponents/inputHeader/Index"
+import GreenButton from "../styledComponents/button/Index"
 
 function InputSearch({ funcao }) {
   const [valueInput, setValueInput] = useState("");
