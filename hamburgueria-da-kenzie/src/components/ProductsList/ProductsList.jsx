@@ -1,4 +1,4 @@
-import Product from "../Product/Product";
+import Product from "../Product/product";
 
 import CardUl from "../styled components/UlProduct/Index";
 
