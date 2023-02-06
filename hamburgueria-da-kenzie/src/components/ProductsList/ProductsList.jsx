@@ -1,6 +1,6 @@
 import Product from "../Product/Product";
 
-import CardUl from "../styled components/UlProduct/index";
+import CardUl from "../styled components/UlProduct/Index";
 
 function Productslist({ lista, funcao }) {
   return (

@@ -1,7 +1,7 @@
-import PurchasingSector from "../styled components/shoppingCart/index";
-import Adding from "../styled components/shoppingCart/addCart";
-import SectorPurchasing from "../styled components/shoppingCart/sectoradd";
-import SectionTotal from "../styled components/shoppingCart/cartTotal";
+import PurchasingSector from "../styled components/ShoppingCart/Index";
+import Adding from "../styled components/ShoppingCart/AddCart";
+import SectorPurchasing from "../styled components/ShoppingCart/Sectoradd";
+import SectionTotal from "../styled components/ShoppingCart/CartTotal";
 
 
 function Cart({ lista, funcao, setCurrentSale, currentSale }) {

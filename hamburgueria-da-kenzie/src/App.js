@@ -1,15 +1,15 @@
 
 import './App.css';
 import { useState, useEffect } from "react"
-import Productslist from "./components/products list/ProductsList";
-import Logohamburgueria from "./components/logo/logo";
-import Inputsearch from "./components/input/input";
-import Cart from "./components/cart/cart";
+import Productslist from "./components/ProductsList/ProductsList";
+import Logohamburgueria from "./components/Logo/Logo";
+import Inputsearch from "./components/Input/Input";
+import Cart from "./components/Cart/Cart";
 
 
-import GlobalStyle from './components/styles/global';
-import HeaderStyled from "./components/styled components/header/index";
-import Body from './components/styled components/body/bodySite';
+// import GlobalStyle from './components/styles/global';
+import HeaderStyled from "./components/styled components/Header/Index";
+import Body from './components/styled components/Body/BodySite';
 
 
 
@@ -63,7 +63,7 @@ const [ setCartTotal] = useState(0)
       const total = currentSale.reduce((acu, valor) => (acu += valor.price), 0);
       setCartTotal(total);
     }
-    <GlobalStyle> </GlobalStyle>
+    // <GlobalStyle> </GlobalStyle>
   
     return (
    
