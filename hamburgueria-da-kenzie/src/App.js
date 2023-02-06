@@ -1,10 +1,10 @@
 
 import './App.css';
 import { useState, useEffect } from "react"
-import Productslist from "./components/ProductsList/ProductsList";
+import Productslist from "./components/productsList/productsList";
 import Logohamburgueria from "./components/logo/logo";
 import Inputsearch from "./components/input/input";
-import Cart from "./components/Cart/cart";
+import Cart from "./components/cart/cart";
 
 
 
