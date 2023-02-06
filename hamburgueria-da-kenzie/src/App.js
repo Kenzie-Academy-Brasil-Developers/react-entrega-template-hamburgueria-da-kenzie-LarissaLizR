@@ -2,7 +2,7 @@
 import './App.css';
 import { useState, useEffect } from "react"
 import Productslist from "./components/ProductsList/ProductsList";
-import Logohamburgueria from "./components/Logo/Logo";
+import Logohamburgueria from "./components/logo/Logo";
 import Inputsearch from "./components/Input/Input";
 import Cart from "./components/Cart/Cart";
 
