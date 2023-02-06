@@ -1,7 +1,7 @@
 
 import './App.css';
 import { useState, useEffect } from "react"
-import Productslist from "./components/productsList/productsList";
+import Productslist from "./components/productsList/ProductsList";
 import Logohamburgueria from "./components/logo/logo";
 import Inputsearch from "./components/input/input";
 import Cart from "./components/cart/cart";
