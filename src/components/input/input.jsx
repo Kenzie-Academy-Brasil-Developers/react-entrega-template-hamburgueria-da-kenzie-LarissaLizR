@@ -4,7 +4,7 @@ import InputHeader from "../styledComponents/inputHeader/Index"
 import GreenButton from "../styledComponents/button/Index"
 
 function InputSearch({ funcao }) {
-  const [valueInput, setValueInput] = useState("");
+  const [valueInput] = useState("");
   return (
     <InputHeader>
       <input

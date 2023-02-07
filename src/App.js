@@ -19,7 +19,7 @@ function App() {
 const [products, setProducts] = useState([]);
 const [filteredProducts, setFilteredProducts] = useState([]);
 const [currentSale, setCurrentSale] = useState([])
-const [ setCartTotal] = useState(0)
+
 
 
 
@@ -31,7 +31,7 @@ const [ setCartTotal] = useState(0)
     })
   }, [])
 
-    console.log(products)
+    
     function handleClick(id) {
       console.log(id);
       const newProductList = currentSale.filter((item) => {
@@ -59,10 +59,7 @@ const [ setCartTotal] = useState(0)
       setCurrentSale([...currentSale, found]);
     }
   
-    function precoTotal() {
-      const total = currentSale.reduce((acu, valor) => (acu += valor.price), 0);
-      setCartTotal(total);
-    }
+
 
   
     return (

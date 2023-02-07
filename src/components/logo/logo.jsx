@@ -1,4 +1,4 @@
-import LogoBugerKenzie from "../../Mask.svg";
+import LogoBugerKenzie from "../../LogoHamburgueria.svg";
 
 function Logohamburgueria() {
   return (

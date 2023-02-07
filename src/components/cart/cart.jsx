@@ -4,13 +4,13 @@ import SectorPurchasing from "../styledComponents/shoppingCart/Sectoradd";
 import SectionTotal from "../styledComponents/shoppingCart/CartTotal";
 
 
-function Cart({ lista, funcao, setCurrentSale, currentSale }) {
-    if (lista.length > 0) {
+function Cart({ list, funcao, setCurrentSale, currentSale }) {
+    if (list.length > 0) {
       return (
         <SectorPurchasing>
           <h2>Carrinho de compras</h2>
           <div>
-            {lista.map((item, index) => (
+            {list.map((item, index) => (
               <Cartproduct key={index} array={item} func={funcao} />
             ))}
           </div>
@@ -40,8 +40,6 @@ function Cart({ lista, funcao, setCurrentSale, currentSale }) {
             R${""}
             {currentSale
               .reduce((acu, valor) => (acu + valor.price), 0)
-              
-
               .toFixed(2)}
           </span>
         </div>
