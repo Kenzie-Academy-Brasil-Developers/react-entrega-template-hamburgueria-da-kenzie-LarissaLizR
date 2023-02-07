@@ -2,7 +2,7 @@ import styled from "styled-components";
 
  const CardUl = styled.ul `
     gap: 20px;
-    width: 410px;
+    width: 100%;
     height: 361px;
     padding: 10px;
 
